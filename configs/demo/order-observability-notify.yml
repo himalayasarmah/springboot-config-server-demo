@@ -19,6 +19,7 @@ spring:
 
       properties:
         spring.json.trusted.packages: "*"
+        spring.json.value.default.type: order.service.dto.OrderEvent
         spring.json.use.type.headers: false
 
   jackson:
